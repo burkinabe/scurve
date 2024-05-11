@@ -33,7 +33,7 @@ def entry(x):
     if x == 0:
         return 0
     else:
-        return utils.graycode(2 * ((x - 1) / 2))
+        return utils.graycode(x - 1)
 
 
 def hilbert_point(dimension, order, h):
